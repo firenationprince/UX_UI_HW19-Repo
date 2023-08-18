@@ -9,7 +9,19 @@
 <body>
   <header>
     <h1>Francisco Delgado</h1>
+
   </header>
+  <title>jQuery UI Slider - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#slider" ).slider();
+  } );
+  </script>
+<div id="slider"></div>
 
   <nav>
    <div class="logo">
@@ -25,26 +37,6 @@
          <li><a href="#">Contact</a></li>
     </ul>
   </nav>  
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script>
-  $(document).ready(function(){
-    $("#hide").click(function(){
-      $("p").hide();
-    });
-    $("#show").click(function(){
-      $("p").show();
-    });
-  });
-  </script>
-  </head>
-  <body>
-  
-  <p>If you click on the "Hide" button, I will disappear.</p>
-  
-  <button id="hide">Hide</button>
-  <button id="show">Show</button>
-
 <main>
  <section class="about">
   <div class="main">
