@@ -206,7 +206,7 @@ button {
 }
 
 /* responsive css properties done with media queries below */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px){
   #mySkills-container {
     flex-direction: column;
     justify-content: flex-start;
@@ -215,17 +215,16 @@ button {
   #mySkills-container > h1 {
     padding: 0% 0% 8% 0%;
   }
-  
+
   #mySkills-container > div {
     max-width: 100%;
     padding: 0% 0% 0% 0%;
-
   }
   
   #mySkills-container img {
     padding: 0% 0% 3% 0%;
   }
-  
+
   #mySkills-container p {
     padding: 2% 7% 10% 8%;
   }
