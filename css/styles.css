@@ -1,0 +1,25 @@
+p {
+    text-align: center;
+    color: red;
+    .nav {
+        background-color: yellow;
+        list-style-type: chenla;
+        text-align: center; 
+        padding: 0;
+        margin: 0;
+      }
+      
+      .nav li {
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px;
+      } 
+      img.b {
+        vertical-align: text-top;
+      }
+      
+  }
+  p {
+    text-align: center;
+    color: red;
+  }
